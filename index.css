@@ -3,11 +3,13 @@
     /* background-image: url('./images/173782.jpg'); */
     background:linear-gradient( rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url('./images/514ac38dafda9005cdd2d9e283d62482.jpg');
     background-size: cover; 
-    min-height: 100%;
     background-position: center;
     margin-bottom: 0;
+    height: auto;
 }
-
+#welcome-section{
+    height: 100vh;
+}
 ul>li{
     display: inline;
     float: right;
@@ -34,7 +36,6 @@ ul{
 }
 nav{
     background: #6769cd38;
-   
 }
 .logo{
     display: inline;
@@ -52,7 +53,7 @@ img{
 .text-container{
     text-align: center;
     padding: 10px;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .description{
     font-size: 3.5rem;
@@ -285,4 +286,10 @@ text-align: center;
 }
 .column{
     margin: 20px;
+}
+.top-bar{
+  position:fixed;
+  top:0;
+  width: 100%;
+  left:0;
 }

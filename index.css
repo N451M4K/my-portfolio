@@ -35,7 +35,11 @@ ul{
     padding-inline-start: 0px;
 }
 nav{
-    background: #6769cd38;
+    background-color: #251d9785;
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: #fff;
 }
 .logo{
     display: inline;
@@ -53,7 +57,7 @@ img{
 .text-container{
     text-align: center;
     padding: 10px;
-    padding-top: 100px;
+    padding-top: 10rem;
 }
 .description{
     font-size: 3.5rem;
@@ -218,8 +222,8 @@ text-align: center;
 }
 
 .skill-heading-description{
-    margin-left: 300px;
-    margin-right:300px;
+    margin-left: 150px;
+    margin-right:150px;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -227,7 +231,7 @@ text-align: center;
     text-align: center;
 }
 .skill-description{
-    text-align: justify;
+    text-align: center;
 }
 .skill-container{
     margin-left: 150px;
@@ -293,3 +297,11 @@ text-align: center;
   width: 100%;
   left:0;
 }
+@media screen and (max-width:700px){
+    .experience-container,.aboutme,.project-description,.diff-container,.diff-heading-description, .skill-container.skill-container, .skill-heading-description{
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+
